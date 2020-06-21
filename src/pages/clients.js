@@ -7,16 +7,16 @@ import Imprint from "../components/clients/imprint"
 const Clients = () => (
   <Layout>
     <SEO title="Clients" />
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <h2 class="page-header">Clients</h2>
+    <div className="container">
+      <div className="row">
+        <div className="col s12">
+          <h2 className="page-header">Clients</h2>
         </div>
       </div>
-      <div class="row white client-row">
+      <div className="row white client-row">
         <BTB />
       </div>
-      <div class="row white client-row no-border">
+      <div className="row white client-row no-border">
         <Imprint />
       </div>
     </div>

@@ -23,7 +23,7 @@ const Imprint = () => {
 
   return (
     <>
-      <div class="col s12 m6">
+      <div className="col s12 m6">
         <Img
           className="client-logo imprint-logo"
           fluid={data.allFile.edges[0].node.childImageSharp.fluid}
@@ -31,14 +31,15 @@ const Imprint = () => {
           loading="eager"
         />
         <a
-          class="btn waves-effect"
+          className="btn waves-effect"
           href="https://www.imprint-ent.com/"
           target="_blank"
+          rel="noreferrer"
         >
           View Site
         </a>
       </div>
-      <div class="col s12 m6 client-project-img-col hide-on-small-only">
+      <div className="col s12 m6 client-project-img-col hide-on-small-only">
         <Img
           className="client-project-img"
           fluid={data.allFile.edges[1].node.childImageSharp.fluid}

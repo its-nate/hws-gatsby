@@ -6,28 +6,28 @@ import SEO from "../components/seo"
 const Services = () => (
   <Layout>
     <SEO title="Services" />
-    <div class="container">
-      <div class="row">
-        <div class="col s12">
-          <h2 class="page-header">Services</h2>
+    <div className="container">
+      <div className="row">
+        <div className="col s12">
+          <h2 className="page-header">Services</h2>
         </div>
       </div>
-      <div class="row">
-        <div class="col s12 m6 offset-m3">
-          <ul class="collapsible">
+      <div className="row">
+        <div className="col s12 m6 offset-m3">
+          <ul className="collapsible">
             <li>
-              <div class="collapsible-header" style={{position: "relative"}}>
+              <div className="collapsible-header" style={{position: "relative"}}>
                 Custom Sites{" "}
                 <span
-                  class="material-icons"
+                  className="material-icons"
                   style={{position: "absolute", right: "2%", top: "25%"}}
                 >
                   keyboard_arrow_down
                 </span>
               </div>
-              <div class="collapsible-body">
+              <div className="collapsible-body">
                 <span>
-                  <h3 class="service-header">Starting at $400</h3>
+                  <h3 className="service-header">Starting at $400</h3>
                   <p>
                     Our mission says it all: creating comprehensive web
                     solutions uniquely designed for you and your brand.
@@ -36,10 +36,10 @@ const Services = () => (
               </div>
             </li>
             <li>
-              <div class="collapsible-header">WYSIWYG Sites</div>
-              <div class="collapsible-body">
+              <div className="collapsible-header">WYSIWYG Sites</div>
+              <div className="collapsible-body">
                 <span>
-                  <h3 class="service-header">Starting at $200</h3>
+                  <h3 className="service-header">Starting at $200</h3>
                   <p>
                     “What You See Is What You Get” website builders (e.g.,
                     Squarespace, Weebly, Wix, Google Sites) are a great
@@ -54,10 +54,10 @@ const Services = () => (
               </div>
             </li>
             <li>
-              <div class="collapsible-header">Support &amp; Maintenance</div>
-              <div class="collapsible-body">
+              <div className="collapsible-header">Support &amp; Maintenance</div>
+              <div className="collapsible-body">
                 <span>
-                  <h3 class="service-header">
+                  <h3 className="service-header">
                     $50 per month for up to 2 updates
                   </h3>
                   <p>
@@ -70,8 +70,8 @@ const Services = () => (
               </div>
             </li>
             <li>
-              <div class="collapsible-header">Video Conference Training</div>
-              <div class="collapsible-body">
+              <div className="collapsible-header">Video Conference Training</div>
+              <div className="collapsible-body">
                 <span>
                   <p>
                     It’s important that your web presence empowers you and your

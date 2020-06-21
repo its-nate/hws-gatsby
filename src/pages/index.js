@@ -19,16 +19,16 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <div class="container">
-        <div class="row">
-          <div class="col s12">
+      <div className="container">
+        <div className="row">
+          <div className="col s12">
             <Img
               className="logo-landing"
               fluid={data.placeholderImage.childImageSharp.fluid}
               alt="Holistic Web Solutions"
               loading="eager"
             />
-            <h1 class="tagline">
+            <h1 className="tagline">
               Creating comprehensive web solutions uniquely designed for you and
               your brand
             </h1>

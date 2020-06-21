@@ -18,7 +18,7 @@ const Header = () => {
   return (
     <header>
       {/* Nav */}
-      <ul id="slide-out" class="sidenav sidenav-fixed">
+      <ul id="slide-out" className="sidenav sidenav-fixed">
         <Link to="/">
           <Img
             className="logo-nav"
@@ -39,12 +39,12 @@ const Header = () => {
       </ul>
 
       <nav>
-        <a href="#" data-target="slide-out" class="sidenav-trigger">
-          <i class="material-icons">menu</i>
+        <a href="#" data-target="slide-out" className="sidenav-trigger">
+          <i className="material-icons">menu</i>
         </a>
         <Link to="/">
           {" "}
-          <h1 class="nav-header center-align">Holistic Web Solutions</h1>
+          <h1 className="nav-header center-align">Holistic Web Solutions</h1>
         </Link>
       </nav>
     </header>

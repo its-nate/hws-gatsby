@@ -23,7 +23,7 @@ const BTB = () => {
 
   return (
     <>
-      <div class="col s12 m6 push-m6">
+      <div className="col s12 m6 push-m6">
         <Img
           className="client-logo"
           fluid={data.allFile.edges[0].node.childImageSharp.fluid}
@@ -31,9 +31,10 @@ const BTB = () => {
           loading="eager"
         />
         <a
-          class="btn waves-effect"
+          className="btn waves-effect"
           href="https://beyondtheblock.org/"
           target="_blank"
+          rel="noreferrer"
         >
           View Site
         </a>
