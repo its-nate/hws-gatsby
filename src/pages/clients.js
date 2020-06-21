@@ -1,11 +1,12 @@
 import React from "react"
 import Layout from "../components/layout"
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
 import BTB from "../components/clients/btb"
 import Imprint from "../components/clients/imprint"
 
 const Clients = () => (
   <Layout>
+    <SEO title="Clients" />
     <div class="container">
       <div class="row">
         <div class="col s12">

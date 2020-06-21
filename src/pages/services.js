@@ -1,11 +1,11 @@
 import React from "react"
 import Layout from "../components/layout"
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
 
 // TODO make stateful to control up or down arrow
 const Services = () => (
   <Layout>
-    {/* <SEO title="Page two" /> */}
+    <SEO title="Services" />
     <div class="container">
       <div class="row">
         <div class="col s12">

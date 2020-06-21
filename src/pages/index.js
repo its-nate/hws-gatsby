@@ -2,7 +2,7 @@ import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import Layout from "../components/layout"
-// import SEO from "../components/seo"
+import SEO from "../components/seo"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -18,7 +18,7 @@ const IndexPage = () => {
   `)
   return (
     <Layout>
-      {/* <SEO title="Home" /> */}
+      <SEO title="Home" />
       <div class="container">
         <div class="row">
           <div class="col s12">
