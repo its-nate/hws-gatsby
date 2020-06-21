@@ -1,28 +1,36 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
-import PropTypes from "prop-types"
-
+import { Helmet } from "react-helmet"
 import Header from "./header"
 import "./layout.css"
 
-const Layout = ({ children }) => {
+const M = typeof window !== `undefined` ? require("materialize-css") : null
 
-  return (
-    <>
-      <Header />
-      <main>{children}</main>
-    </>
-  )
-}
+class Layout extends React.Component {
+  componentDidMount() {
+    setTimeout(function () {
+      var menuElems = document.querySelectorAll(".collapsible")
+      var menuInstances = M.Collapsible.init(menuElems)
 
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
+      var mobileNavElems = document.querySelectorAll(".sidenav")
+      var mobileNavInstances = M.Sidenav.init(mobileNavElems)
+    }, 500)
+  }
+
+  render() {
+    return (
+      <>
+        <Helmet>
+          {/* Materialize Icons */}
+          <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+          />
+        </Helmet>
+        <Header />
+        <main>{this.props.children}</main>
+      </>
+    )
+  }
 }
 
 export default Layout
