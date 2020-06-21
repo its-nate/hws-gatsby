@@ -1,6 +1,4 @@
 import React from "react"
-// import { useStaticQuery, graphql } from "gatsby"
-// import Img from "gatsby-image"
 import Layout from "../components/layout"
 // import SEO from "../components/seo"
 
@@ -56,7 +54,7 @@ const Services = () => (
               </div>
             </li>
             <li>
-              <div class="collapsible-header">Support & Maintenance</div>
+              <div class="collapsible-header">Support &amp; Maintenance</div>
               <div class="collapsible-body">
                 <span>
                   <h3 class="service-header">
