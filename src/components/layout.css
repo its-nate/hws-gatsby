@@ -84,6 +84,11 @@ body>ul>li>a:hover {
     color: white;
 }
 
+.sidenav li > a:hover {
+    background-color: #81c3c9;
+    color: white !important;
+}
+
 @keyframes fadein {
     from {
         opacity: 0;
