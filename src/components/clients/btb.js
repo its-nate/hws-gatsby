@@ -39,7 +39,7 @@ const BTB = () => {
           View Site
         </a>
       </div>
-      <div class="col s12 m6 pull-m6 client-project-img-col hide-on-small-only">
+      <div className="col s12 m6 pull-m6 client-project-img-col hide-on-small-only">
         <Img
           className="client-project-img"
           fluid={data.allFile.edges[1].node.childImageSharp.fluid}

@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 // TODO make stateful to control up or down arrow
-const Services = () => (
+const Services = (props) => (
   <Layout>
     <SEO title="Services" />
     <div className="container">
@@ -13,17 +13,17 @@ const Services = () => (
         </div>
       </div>
       <div className="row">
-        <div className="col s12 m6 offset-m3">
+        <div className="col s12 m8 offset-m2">
           <ul className="collapsible">
             <li>
               <div className="collapsible-header" style={{position: "relative"}}>
                 Custom Sites{" "}
-                <span
+                {/* <span
                   className="material-icons"
                   style={{position: "absolute", right: "2%", top: "25%"}}
                 >
                   keyboard_arrow_down
-                </span>
+                </span> */}
               </div>
               <div className="collapsible-body">
                 <span>
