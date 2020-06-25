@@ -41,6 +41,16 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+#gatsby-focus-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 .tagline, .page-header, .collapsible-header, .sidenav, .contact {
     text-align: center;
     text-transform: uppercase;
@@ -153,8 +163,22 @@ nav {
     font-size: 18px;
 }
 
-main {
+main, .page-footer {
     padding-left: 300px;
+}
+
+.page-footer {
+    margin-top: 20px;
+    padding-top: 0;
+    background-color: #1b4a55;
+}
+
+.page-footer .footer-copyright {
+    background-color: #1b4a55;
+}
+
+.footer-text {
+    color: #fff;
 }
 
 main>.container {
@@ -222,7 +246,7 @@ main>.container {
 }
 
 @media only screen and (max-width: 992px) {
-    main {
+    main, .page-footer {
         padding-left: 0;
     }
     nav {
