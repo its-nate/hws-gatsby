@@ -1,3 +1,15 @@
+# Holistic Web Solutions
+
+Feel free to poke around—I want you to see the code I write!
+
+## Made with:
+
+  <a href="https://www.gatsbyjs.org">
+    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+  </a>
+  
+  [Gatsby](https://www.gatsby.js.org)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
