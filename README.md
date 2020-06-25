@@ -6,9 +6,8 @@ Feel free to poke around—I want you to see the code I write!
 
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+      <span>Gatsby</span>
   </a>
-  
-  [Gatsby](https://www.gatsby.js.org)
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
