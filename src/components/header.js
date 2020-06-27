@@ -16,29 +16,29 @@ class Header extends React.Component {
           </Link>
           <li>
             {activeNav === "Services" ? (
-              <Link to="/services" className="active-nav">
+              <Link to="/services" className="sidenav-close active-nav">
                 Services
               </Link>
             ) : (
-              <Link to="/services">Services</Link>
+              <Link to="/services" className="sidenav-close">Services</Link>
             )}
           </li>
           <li>
             {activeNav === "Clients" ? (
-              <Link to="/clients" className="active-nav">
+              <Link to="/clients" className="sidenav-close active-nav">
                 Clients
               </Link>
             ) : (
-              <Link to="/clients">Clients</Link>
+              <Link to="/clients" className="sidenav-close">Clients</Link>
             )}
           </li>
           <li>
             {activeNav === "Contact" ? (
-              <Link to="/contact" className="active-nav">
+              <Link to="/contact" className="sidenav-close active-nav">
                 Contact
               </Link>
             ) : (
-              <Link to="/contact">Contact</Link>
+              <Link to="/contact" className="sidenav-close">Contact</Link>
             )}
           </li>
         </ul>

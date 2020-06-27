@@ -13,7 +13,10 @@ class Layout extends React.Component {
       var menuInstances = M.Collapsible.init(menuElems)
 
       var mobileNavElems = document.querySelectorAll(".sidenav")
-      var mobileNavInstances = M.Sidenav.init(mobileNavElems)
+      var mobileNavInstances = M.Sidenav.init(mobileNavElems, {
+        preventScrolling: true,
+        draggable: false,
+      })
     }, 500)
   }
 

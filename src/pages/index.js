@@ -4,6 +4,9 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+// TODO add inspector message
+// TODO Flip imprint pics
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
