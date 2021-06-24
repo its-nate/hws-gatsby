@@ -27,248 +27,254 @@ Montserrat Light
 */
 
 @font-face {
-    font-family: "Open Sans";
-    src: url("/fonts/Open_Sans/OpenSans-Regular.ttf")
+  font-family: "Open Sans";
+  src: url("/fonts/Open_Sans/OpenSans-Regular.ttf");
 }
 
 @font-face {
-    font-family: "Montserrat";
-    src: url("/fonts/Montserrat/Montserrat-Regular.ttf")
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat/Montserrat-Regular.ttf");
 }
 
 body {
-    background-color: #1b4a55;
-    font-family: 'Open Sans', sans-serif;
+  background-color: #1b4a55;
+  font-family: "Open Sans", sans-serif;
 }
 
 #gatsby-focus-wrapper {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 main {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
-.tagline, .page-header, .collapsible-header, .sidenav, .contact {
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
-    letter-spacing: 0.4em;
-    font-family: 'Montserrat', sans-serif;
+.tagline,
+.page-header,
+.collapsible-header,
+.sidenav,
+.contact {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.4em;
+  font-family: "Montserrat", sans-serif;
 }
 
 .logo-landing {
-    display: block;
-    margin: auto;
-    width: 20em;
-    margin-top: 15%;
+  display: block;
+  margin: auto;
+  width: 20em;
+  margin-top: 15%;
 }
 
 .logo-nav {
-    display: block;
-    margin: auto;
-    width: 20em;
-    margin-top: -15%;
+  display: block;
+  margin: auto;
+  width: 20em;
+  margin-top: -15%;
 }
 
 .tagline {
-    line-height: 1.5em;
-    margin-top: 5%;
-    font-size: 1.5em;
-    animation: fadein 6s;
+  line-height: 1.5em;
+  margin-top: 5%;
+  font-size: 1.5em;
+  animation: fadein 6s;
 }
 
 .sidenav {
-    background-color: white;
+  background-color: white;
 }
 
 .active-nav {
-    background-color: #81c3c9;
-    color: white !important;
+  background-color: #81c3c9;
+  color: white !important;
 }
 
-body>ul>li>a:hover {
-    background-color: #81c3c9 !important;
-    color: white;
+body > ul > li > a:hover {
+  background-color: #81c3c9 !important;
+  color: white;
 }
 
 .sidenav li > a:hover {
-    background-color: #81c3c9;
-    color: white !important;
+  background-color: #81c3c9;
+  color: white !important;
 }
 
 @keyframes fadein {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .page-header {
-    margin-top: 75px;
-    font-size: 3rem;
+  margin-top: 75px;
+  font-size: 3rem;
 }
 
 /* Nav */
 
 nav {
-    background-color: #1b4a55;
-    box-shadow: none;
+  background-color: #1b4a55;
+  box-shadow: none;
 }
 
 .material-icons {
-    color: #1b4a55;
+  color: #1b4a55;
 }
 
 .nav-header {
-    position: relative;
-    left: -20px;
-    text-transform: uppercase;
-    color: #1b4a55;
-    font-size: 14px;
-    margin: 0;
-    padding-top: 20px;
-    font-family: 'Open Sans', sans-serif;
-    letter-spacing: 0.25em;
+  position: relative;
+  left: -20px;
+  text-transform: uppercase;
+  color: #1b4a55;
+  font-size: 14px;
+  margin: 0;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.25em;
 }
 
 /* Services Dropdowns */
 
 .service-header {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;
-    border-bottom: 1px solid #81c3c9;
-    padding-bottom: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #81c3c9;
+  padding-bottom: 18px;
 }
 
 .collapsible {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .collapsible-header {
-    color: black;
-    font-size: 20px;
-    padding: 15px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: left;
+  color: black;
+  font-size: 20px;
+  padding: 15px;
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
 }
 
 .collapsible-body {
-    background-color: white;
-    font-size: 18px;
+  background-color: white;
+  font-size: 18px;
 }
 
-main, .page-footer {
-    padding-left: 300px;
+main,
+.page-footer {
+  padding-left: 300px;
 }
 
 .page-footer {
-    margin-top: 20px;
-    padding-top: 0;
-    background-color: #1b4a55;
+  margin-top: 20px;
+  padding-top: 0;
+  background-color: #1b4a55;
 }
 
 .page-footer .footer-copyright {
-    background-color: #1b4a55;
+  background-color: #1b4a55;
 }
 
 .footer-text {
-    color: #fff;
+  color: #fff;
 }
 
-main>.container {
-    width: 100%;
+main > .container {
+  width: 100%;
 }
 
 /* Client Profiles */
 
 .client-logo {
-    display: block;
-    max-width: 50%;
-    margin: 40px auto;
+  display: block;
+  max-width: 50%;
+  margin: 40px auto;
 }
 
 .client-project-img-col {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 .client-project-img {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .imprint-logo {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .client-row {
-    margin-bottom: 0px;
-    border-bottom: 4px dotted #81c3c9;
-    padding: 20px 0;
+  margin-bottom: 0px;
+  border-bottom: 4px dotted #81c3c9;
+  padding: 20px 0;
 }
 
 .no-border {
-    border: none;
+  border: none;
 }
 
 .btn {
-    display: block;
-    margin: auto;
-    width: 25%;
-    background-color: #1b4a55;
+  display: block;
+  margin: auto;
+  width: 25%;
+  background-color: #1b4a55;
 }
 
 .btn:hover {
-    background-color: #81c3c9;
+  background-color: #81c3c9;
 }
 
 /* Contact */
 
 .contact-info {
-    display: inline-block;
-    margin-bottom: 30px;
-    font-size: 1.8rem;
-    color: white;
+  display: inline-block;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: white;
 }
 
 .contact {
-    margin-top: 125px;
-    letter-spacing: 0.4em;
+  margin-top: 125px;
+  letter-spacing: 0.4em;
 }
 
 .fa {
-    color: white;
-    margin: 40px;
+  color: white;
+  margin: 40px;
 }
 
 @media only screen and (max-width: 992px) {
-    main, .page-footer {
-        padding-left: 0;
-    }
-    nav {
-        background-color: white;
-    }
-    .contact {
-        margin-top: 0;
-    }
-    .btn {
-        width: 40%;
-        margin-bottom: 15px;
-    }
-    .client-row {
-        border-bottom: 2px dotted #81c3c9;
-    }
-    .no-border {
-        border: none;
-    }
-    .collapsible {
-        margin-top: 0;
-    }
-    .logo-landing {
-        margin-top: 4%;
-    }
+  main,
+  .page-footer {
+    padding-left: 0;
+  }
+  nav {
+    background-color: white;
+  }
+  .contact {
+    margin-top: 0;
+  }
+  .btn {
+    width: 40%;
+    margin-bottom: 15px;
+  }
+  .client-row {
+    border-bottom: 2px dotted #81c3c9;
+  }
+  .no-border {
+    border: none;
+  }
+  .collapsible {
+    margin-top: 0;
+  }
+  .logo-landing {
+    margin-top: 4%;
+  }
 }
