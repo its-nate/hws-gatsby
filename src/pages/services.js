@@ -72,7 +72,7 @@ class Services extends React.Component {
                   </div>
                   <div className="collapsible-body">
                     <span>
-                      <h3 className="service-header">Starting at $400</h3>
+                      <h3 className="service-header">Starting at $2,000</h3>
                       <p>
                         Our mission says it all: creating comprehensive web
                         solutions uniquely designed for you and your brand.
@@ -113,7 +113,7 @@ class Services extends React.Component {
                   </div>
                   <div className="collapsible-body">
                     <span>
-                      <h3 className="service-header">Starting at $200</h3>
+                      <h3 className="service-header">Starting at $1,000</h3>
                       <p>
                         “What You See Is What You Get” website builders (e.g.,
                         Squarespace, Weebly, Wix, Google Sites) are a great
@@ -161,7 +161,7 @@ class Services extends React.Component {
                   <div className="collapsible-body">
                     <span>
                       <h3 className="service-header">
-                        $50 per month for up to 2 updates
+                        $100 per month for up to 2 updates
                       </h3>
                       <p>
                         The internet moves fast—make sure your web presence
